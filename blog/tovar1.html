@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Blog</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1"> <!-- адаптивность под разные устройства -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-light bg-light">
+		<div class="container">
+			<a href="index.html" class="navbar-brand"><strong>WEB Blog TSPU</strong></a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#headerMenu" aria-controls="headerMenu" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+
+			<div class="collapse navbar-collapse" id="headerMenu">
+				<ul class="navbar-nav me-auto">
+					<li class="nav-item">
+						<a href="index.html" class="nav-link">Home</a>
+					</li>
+					<li class="nav-item">
+						<a href="int.html" class="nav-link">Interesting</a>
+					</li>	
+					<li class="nav-item">
+						<a href="foto.html" class="nav-link">Gallery</a>
+					</li>					
+					<li class="nav-item">
+						<a href="text.html" class="nav-link">Text</a>
+					</li>	
+					<li class="nav-item">
+						<a href="shop.html" class="nav-link activ">Shop</a>
+					</li>	
+				</ul>
+				<form class="d-flex">
+       				<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" >
+        			<button class="btn btn-outline-success" type="submit">Search</button>
+     			 </form>
+			</div>
+		</div>
+	</nav>
+	<div class="container" mt-3>
+		<nav aria-label="breadcrumb">
+  			<ol class="breadcrumb">
+   				 <li class="breadcrumb-item"><a href="#">Главная</a></li>
+   				 <li class="breadcrumb-item">Каталог</li>
+   				 <li class="breadcrumb-item">Кошки</li>
+   				 <li class="breadcrumb-item">Товары для котят</li>
+   				 <li class="breadcrumb-item active" aria-current="page">Игрушки</li>
+  			</ol>
+		</nav>
+		<h1>Игрушки для котят</h1>
+	</div>
+	<div class="container">
+		<div class="row">
+			
+			<!--меню-->
+			<div class="col-md-3 col-12"><!-- адаптивность вкладки -->
+				<div class="list-group">
+					<a href="shop.html" class="list-group-item list-group-item-action list-group-item-secondary active">Кошки</a>
+					<a href="shop.html" class="list-group-item list-group-item-action list-group-item-secondary">Собаки</a>
+					<a href="shop.html" class="list-group-item list-group-item-action list-group-item-secondary">Грызуны</a>
+					<a href="shop.html" class="list-group-item list-group-item-action list-group-item-secondary">Птицы</a>
+					<a href="shop.html" class="list-group-item list-group-item-action list-group-item-secondary">Рыбки</a>
+				</div>
+			</div>
+
+
+
+			<div class="card mb-9" style="max-width: 800px;">
+  				<div class="row no-gutters">
+    				<div class="col-md-4">
+      					<img src="images/s1.jpg" class="card-img" alt="картинка">
+    				</div>
+    				<div class="col-md-8">
+      					<div class="card-body">
+        					<h3 class="card-title" style="color: green">Катушка с перьями 5см Игрушка для кошек катушка с перьями 5см 1шт</h3>
+        						<h4>77 рублей</h4>
+        						<h5><strike>97 руб.</strike></h5>
+        							<!--звезды--> 
+									<div class="rounded-pill " style="color: orange; white-space: nowrap; text-align: right;">
+						                <span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star checked"></span>
+										<span class="fa fa-star"></span>
+										<span class="fa fa-star"></span>
+					                </div>
+					                <p style="text-align: right;">Артикул: 066720634</p>
+					                <p>
+					                	Катушка с перьями увлечет любую кошку, с ней она может играть и самостоятельно? и вместе с хозяином.
+					                </p>
+					                <a href="#" class="btn btn-warning" role="button" aria-pressed="true">Купить</a>
+      					</div>
+    				</div>
+  				</div>
+			</div>
+
+
+					
+
+
+
+			
+
+			</div>				
+		</div>
+	</div>
+</body>
+</html>
